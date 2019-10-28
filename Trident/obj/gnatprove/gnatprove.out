@@ -1,0 +1,44 @@
+Summary of SPARK analysis
+=========================
+
+-------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   Interval   CodePeer      Provers   Justified   Unproved
+-------------------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .          .            .           .          .
+Flow Dependencies                 .         .          .          .            .           .          .
+Initialization                    .         .          .          .            .           .          .
+Non-Aliasing                      .         .          .          .            .           .          .
+Run-time Checks                   6         .          .          .     6 (CVC4)           .          .
+Assertions                        .         .          .          .            .           .          .
+Functional Contracts             23         .          .          .    22 (CVC4)           .          1
+LSP Verification                  .         .          .          .            .           .          .
+-------------------------------------------------------------------------------------------------------
+Total                            29         .          .          .     28 (97%)           .     1 (3%)
+
+
+Analyzed 2 units
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:12 skipped
+in unit trident, 22 subprograms and packages out of 22 analyzed
+  Trident at trident.ads:9 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Trident.CloseAirlockOne at trident.ads:156 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.CloseAirlockTwo at trident.ads:161 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.DepthPosition at trident.ads:78 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.DepthTest at trident.ads:85 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Trident.DiveCheck at trident.ads:96 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.EmergencySurface at trident.ads:103 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.Fire at trident.ads:146 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Trident.LifeSupportCheck at trident.ads:111 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.Load at trident.ads:141 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.LockAirlockOne at trident.ads:166 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.LockAirlockTwo at trident.ads:172 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.OpenAirlockOne at trident.ads:178 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.OpenAirlockTwo at trident.ads:185 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.OperateSubmarine at trident.ads:61 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.OxygenTest at trident.ads:120 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (4 checks)
+  Trident.ReactorCheck at trident.ads:131 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 1 checks out of 2 proved
+  Trident.ReadyToFire at trident.ads:73 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Trident.Store at trident.ads:151 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Trident.UnlockAirlockOne at trident.ads:192 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.UnlockAirlockTwo at trident.ads:197 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Trident.WeaponsSystemCheck at trident.ads:68 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)

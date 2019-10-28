@@ -1,0 +1,122 @@
+V "GNAT Lib v2018"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U main%b		main.adb		1c853a6a OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+W trident%s		trident.adb		trident.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D main.adb		20190429071444 0bed8e97 main%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D trident.ads		20190429072126 9f7507a7 trident%s
+X 1 ada.ads
+16K9*Ada 20e8 7|10r6 10r23
+X 4 a-textio.ads
+49K13*Text_IO 471e16 7|10w10 10r27
+242U14*Put 7|27s4 29s4 33s4 35s4 40s4 42s4 47s4 51s4 54s4 57s4 61s4 63s4
+. 69s4 71s4 76s4 77s4 78s4 82s4 83s4 84s4 87s4 90s4 94s4 99s4 100s4 103s4
+. 104s4 107s4 108s4 111s4 112s4 115s4 116s4 119s4 120s4 123s4 125s4 131s4
+. 134s4 137s4 138s4 144s4 147s4 150s4 151s4 157s4 160s4 163s4 164s4 170s4
+. 173s4 176s4 177s4 183s4 186s4 189s4 190s4 196s4 199s4 202s4 203s4 207s4
+. 211s4 212s4 213s4 217s4 218s4 219s4 221s4 225s4 226s4 227s4 229s4 233s4
+. 234s4 235s4 237s4 241s4 242s4 243s4 245s4 249s4 250s4 251s4 253s4 259s4
+. 263s4 264s4 265s4 270s4 273s4 274s4 276s4 278s4 280s4 282s4 285s4 287s4
+. 289s4 292s4 294s4 296s4 299s4 301s4 303s4 306s4 308s4 310s4 313s4 315s4
+. 317s4 320s4 322s4 324s4 327s4 329s4 331s4 334s4 336s4 338s4 341s4 343s4
+. 345s4 348s4 350s4
+263U14*Put_Line 7|14s4 15s4 16s4 17s4 18s4 19s4 20s4 21s4 22s4 23s4 24s4
+. 25s4 28s4 31s4 32s4 34s4 36s4 37s4 38s4 41s4 43s4 44s4 45s4 48s4 49s4 52s4
+. 53s4 56s4 59s4 60s4 62s4 64s4 65s4 66s4 70s4 72s4 73s4 74s4 79s4 80s4 85s4
+. 86s4 89s4 92s4 93s4 96s4 97s4 101s4 105s4 109s4 113s4 117s4 121s4 122s4
+. 124s4 126s4 127s4 129s4 132s4 133s4 135s4 139s4 140s4 142s4 145s4 146s4
+. 148s4 152s4 153s4 155s4 158s4 159s4 161s4 165s4 166s4 168s4 171s4 172s4
+. 174s4 178s4 179s4 181s4 184s4 185s4 187s4 191s4 192s4 194s4 197s4 198s4
+. 200s4 204s4 205s4 206s4 209s4 214s4 215s4 220s4 223s4 228s4 231s4 236s4
+. 239s4 244s4 247s4 252s4 255s4 256s4 257s4 261s4 266s4 267s4 268s4 275s4
+. 281s4 288s4 295s4 302s4 309s4 316s4 323s4 330s4 337s4 344s4 351s4 353s4
+. 354s4 355s4 358s4
+X 7 main.adb
+12U11*Main 12b11 360l5 360t9
+X 13 trident.ads
+9K9*Trident 7|9w6 9r19 13|202e12
+16I9*TorpedoesCount<short_short_integer>
+23I9*Depth<integer>
+26I9*OxygenPercentage<integer>
+31e7*operating{11E9} 7|28r30 56r30 89r30
+32e7*WeaponsAvailablity{12E9} 7|31r30 59r30 92r30
+33e7*CloseAirlockOne{17E9} 7|34r30 41r30 48r30 77r25
+34e7*CloseAirlockTwo{18E9} 7|36r30 43r30 52r30 83r25
+35e7*LockAirlockOne{19E9} 7|62r30 70r30 79r30
+36e7*LockAirlockTwo{20E9} 7|64r30 72r30 85r30
+37i7*torpedoes{16I9} 7|101r30 105r30 109r30 113r30 117r30 121r30 126r30 139r30
+. 152r30 165r30 178r30 191r30 204r30
+38b7*loaded{boolean} 7|96r30 132r30 145r30 158r30 171r30 184r30 197r30
+39e7*storedTorpedoes{13E9} 7|99r25 103r25 107r25 111r25 115r25 119r25
+40e7*loadedTorpedoes{14E9} 7|124r30 135r30 148r30 161r30 174r30 187r30 200r30
+41e7*firingTorpedoes{15E9} 7|137r25 150r25 163r25 176r25 189r25 202r25
+42e7*diveOperational{21E9} 7|211r25 217r25 225r25 233r25 241r25 249r25 263r25
+43e7*depthPositionCheck{22E9} 7|209r30 223r30 231r30 239r30 247r30 255r30
+. 261r30
+44i7*depthRange{23I9} 7|213r25 219r25 227r25 235r25 243r25 251r25 265r25
+45e7*lifeSupportStatus{24E9} 7|273r25 278r25 285r25 292r25 299r25 306r25
+. 313r25 320r25 327r25 334r25 341r25 348r25 353r30
+47i7*oxygenRange{26I9} 7|275r30 281r30 288r30 295r30 302r30 309r30 316r30
+. 323r30 330r30 337r30 344r30 351r30
+52r4*TridentSubmarine{30R9} 7|28r13 31r13 34r13 36r13 41r13 43r13 48r13 52r13
+. 56r13 59r13 62r13 64r13 70r13 72r13 77r8 79r13 83r8 85r13 89r13 92r13 96r13
+. 99r8 101r13 103r8 105r13 107r8 109r13 111r8 113r13 115r8 117r13 119r8 121r13
+. 124r13 126r13 132r13 135r13 137r8 139r13 145r13 148r13 150r8 152r13 158r13
+. 161r13 163r8 165r13 171r13 174r13 176r8 178r13 184r13 187r13 189r8 191r13
+. 197r13 200r13 202r8 204r13 209r13 211r8 213r8 217r8 219r8 223r13 225r8
+. 227r8 231r13 233r8 235r8 239r13 241r8 243r8 247r13 249r8 251r8 255r13 261r13
+. 263r8 265r8 273r8 275r13 278r8 281r13 285r8 288r13 292r8 295r13 299r8 302r13
+. 306r8 309r13 313r8 316r13 320r8 323r13 327r8 330r13 334r8 337r13 341r8
+. 344r13 348r8 351r13 353r13
+61U14*OperateSubmarine 7|26s4 55s4 88s4
+68U14*WeaponsSystemCheck 7|30s4 58s4 91s4
+73U14*ReadyToFire 7|95s4
+78U14*DepthPosition 7|208s4 222s4 230s4 238s4 246s4 254s4 260s4
+85U14*DepthTest 7|210s4 224s4 232s4 240s4 248s4 262s4
+96U14*DiveCheck 7|216s4 269s4 356s4
+103U14*EmergencySurface 7|258s4
+111U14*LifeSupportCheck 7|272s4 277s4 284s4 291s4 298s4 305s4 312s4 319s4
+. 326s4 333s4 340s4 347s4 352s4
+120U14*OxygenTest 7|279s4 286s4 293s4 300s4 307s4 314s4 321s4 328s4 335s4
+. 342s4 349s4
+131U14*ReactorCheck 7|357s4
+141U14*Load 7|130s4 143s4 156s4 169s4 182s4 195s4
+146U14*Fire 7|136s4 149s4 162s4 175s4 188s4 201s4
+151U14*Store 7|98s4 102s4 106s4 110s4 114s4 118s4
+156U14*CloseAirlockOne 7|46s4
+161U14*CloseAirlockTwo 7|50s4
+166U14*LockAirlockOne 7|67s4
+172U14*LockAirlockTwo 7|68s4
+178U14*OpenAirlockOne 7|75s4
+185U14*OpenAirlockTwo 7|39s4 81s4
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS main 0
+GG EK_GLOBALS main local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 0 refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 0 calls_proof 0 calls 0 calls_conditional 21 trident__operatesubmarine trident__weaponssystemcheck trident__readytofire trident__depthposition trident__depthtest trident__divecheck trident__emergencysurface trident__lifesupportcheck trident__oxygentest trident__reactorcheck trident__load trident__fire trident__store trident__closeairlockone trident__closeairlocktwo trident__lockairlockone trident__lockairlocktwo trident__openairlockone trident__openairlocktwo ada__text_io__put__4 ada__text_io__put_line__2 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_END_MARKER

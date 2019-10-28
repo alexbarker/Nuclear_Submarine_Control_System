@@ -1,0 +1,53 @@
+trident.adb:28:21: warning: no Global contract available for "Put_Line"
+trident.adb:28:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:29:21: warning: no Global contract available for "Put_Line"
+trident.adb:29:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:30:21: warning: no Global contract available for "Put_Line"
+trident.adb:30:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:41:21: warning: no Global contract available for "Put_Line"
+trident.adb:41:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:42:21: warning: no Global contract available for "Put_Line"
+trident.adb:42:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:43:21: warning: no Global contract available for "Put_Line"
+trident.adb:43:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:53:21: warning: no Global contract available for "Put_Line"
+trident.adb:53:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:54:21: warning: no Global contract available for "Put_Line"
+trident.adb:54:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:55:21: warning: no Global contract available for "Put_Line"
+trident.adb:55:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:185:21: warning: no Global contract available for "Put_Line"
+trident.adb:185:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:186:21: warning: no Global contract available for "Put_Line"
+trident.adb:186:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:187:21: warning: no Global contract available for "Put_Line"
+trident.adb:187:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:201:10: warning: no Global contract available for "Put_Line"
+trident.adb:201:10: warning: assuming "Put_Line" has no effect on global items
+trident.adb:203:10: warning: no Global contract available for "Put_Line"
+trident.adb:203:10: warning: assuming "Put_Line" has no effect on global items
+trident.adb:204:21: warning: no Global contract available for "Put_Line"
+trident.adb:204:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:205:21: warning: no Global contract available for "Put_Line"
+trident.adb:205:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:206:21: warning: no Global contract available for "Put_Line"
+trident.adb:206:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:208:10: warning: no Global contract available for "Put_Line"
+trident.adb:208:10: warning: assuming "Put_Line" has no effect on global items
+trident.adb:209:21: warning: no Global contract available for "Put_Line"
+trident.adb:209:21: warning: assuming "Put_Line" has no effect on global items
+trident.adb:221:11: warning: no Global contract available for "Put"
+trident.adb:221:11: warning: assuming "Put" has no effect on global items
+trident.adb:222:11: warning: no Global contract available for "Put_Line"
+trident.adb:222:11: warning: assuming "Put_Line" has no effect on global items
+trident.adb:223:22: warning: no Global contract available for "Put_Line"
+trident.adb:223:22: warning: assuming "Put_Line" has no effect on global items
+trident.adb:224:22: warning: no Global contract available for "Put_Line"
+trident.adb:224:22: warning: assuming "Put_Line" has no effect on global items
+trident.adb:225:22: warning: no Global contract available for "Put_Line"
+trident.adb:225:22: warning: assuming "Put_Line" has no effect on global items
+trident.adb:227:11: warning: no Global contract available for "Put"
+trident.adb:227:11: warning: assuming "Put" has no effect on global items
+trident.adb:228:22: warning: no Global contract available for "Put_Line"
+trident.adb:228:22: warning: assuming "Put_Line" has no effect on global items
+trident.ads:139:06: medium: postcondition might fail, cannot prove TridentSubmarine.reactorWarnings = Overheating[#0]

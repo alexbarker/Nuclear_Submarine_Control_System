@@ -1,0 +1,231 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U trident%b		trident.adb		4a2a7486 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U trident%s		trident.ads		9f7507a7 OO PK
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D trident.ads		20190429072126 9f7507a7 trident%s
+D trident.adb		20190429071444 5d42c07b trident%b
+X 1 ada.ads
+16K9*Ada 20e8 13|9r6 9r23 28r10 29r10 30r10 41r10 42r10 43r10 53r10 54r10
+. 55r10 185r10 186r10 187r10 204r10 205r10 206r10 209r10 223r11 224r11 225r11
+. 228r11
+X 4 a-textio.ads
+49K13*Text_IO 471e16 13|9w10 9r27 28r14 29r14 30r14 41r14 42r14 43r14 53r14
+. 54r14 55r14 185r14 186r14 187r14 204r14 205r14 206r14 209r14 223r15 224r15
+. 225r15 228r15
+242U14*Put 13|221s11 227s11
+263U14*Put_Line 13|28s22 29s22 30s22 41s22 42s22 43s22 53s22 54s22 55s22
+. 185s22 186s22 187s22 201s10 203s10 204s22 205s22 206s22 208s10 209s22 222s11
+. 223s23 224s23 225s23 228s23
+X 12 trident.ads
+9K9*Trident 202l5 202e12 13|10b14 233l5 233t12
+11E9*Operational 11e33 31r19
+11n25*Yes{11E9} 66r43 70r42 80r42 82r43 87r42 91r43 98r42 105r42 113r42 116r43
+. 122r42 126r43 133r42 137r43 13|119r88 127r40 146r40 158r40 169r40 193r40
+. 216r40
+11n30*No{11E9} 52r50 63r42 13|117r40 121r40
+12E9*WeaponsSystemAvailable 12e59 32r28
+12n36*Available{12E9} 71r52 75r51 76r52 81r44 83r44 88r44 92r44 99r44 106r44
+. 114r44 117r44 123r44 127r44 134r44 143r51 148r51 153r51 13|127r89 147r49
+. 159r49 170r49 194r49 217r49
+12n47*Unavailable{12E9} 54r87 13|129r49
+13E9*TorpedoesStored 13e47 39r25
+13n29*Stored{13E9} 154r122 13|50r46
+13n37*Notstored{13E9} 55r89 13|52r46
+14E9*TorpedoesLoaded 14e47 40r25
+14n29*Loaded{14E9} 70r90 75r105 144r89 13|16r46 25r46
+14n37*Notloaded{14E9} 56r56 13|18r46 27r46
+15E9*TorpedoesFiring 15e45 41r25
+15n29*Firing{15E9} 149r90 13|38r46
+15n37*Waiting{15E9} 56r86 13|40r46
+16I9*TorpedoesCount<short_short_integer> 37r19 153r99 13|49r39
+17E9*AirlockDoorOne 17e41 33r25
+17n28*Closed{17E9} 63r89 159r49 163r97 168r48 181r41 189r41 194r48 195r49
+. 13|62r46 68r95 75r46 89r98 97r46 103r46 117r87
+17n36*Open{17E9} 52r73 158r48 183r49 13|61r47 90r95
+18E9*AirlockDoorTwo 18e41 34r25
+18n28*Closed{18E9} 53r56 64r100 158r97 164r49 174r48 182r41 188r41 199r48
+. 200r49 13|61r96 69r46 82r46 90r46 96r98 110r46 118r96
+18n36*Open{18E9} 163r48 190r49 13|68r46 97r95
+19E9*AirlockLockOne 19e45 35r24
+19n28*Locked{19E9} 64r49 170r48 194r98 13|76r45 103r96 118r45
+19n36*Unlocked{19E9} 53r82 169r40 180r47 195r99 13|75r96 89r45 104r45
+20E9*AirlockLockTwo 20e45 36r24
+20n28*Locked{20E9} 65r49 176r48 199r98 13|83r45 110r96 119r45
+20n36*Unlocked{20E9} 54r55 175r40 187r47 200r99 13|82r96 96r45 111r45
+21E9*DiveOperation 21e41 42r25
+21n27*Dive{21E9} 89r41 93r41 101r49 107r41 124r41 128r41 136r41 13|148r46
+. 161r46 171r46 195r46 219r46
+21n33*Surface{21E9} 57r56 100r41 108r48 13|160r46 163r46 173r46
+22E9*DepthWarning 22e62 43r28
+22n26*OptimalDepth{22E9} 57r87 13|136r48
+22n40*Warning{22E9} 13|138r48
+22n49*MaximumDepth{22E9} 13|140r49
+23I9*Depth<integer> 44r20
+24E9*LifeSupport 24e41 45r27
+24n25*Optimal{24E9} 58r58 13|181r48
+24n34*Danger{24E9} 13|183r48
+25E9*LifeSupportWarning 25e61 46r29
+25n32*OptimalOxygen{25E9} 58r90
+25n47*OxygenWarning{25E9} 13|184r50 200r50
+26I9*OxygenPercentage<integer> 47r21
+27E9*ReactorWarning 27e49 48r25
+27n28*Optimal{27E9} 59r81 135r41 138r41 13|218r46
+27n37*Overheating{27E9} 139r41 13|220r47
+28I9*ReactorTemp<short_integer> 49r28
+30R9*Submarine 50e14 52r23
+31e7*operating{11E9} 52m37 63r30 66r31 70r30 80r30 82r31 87r30 91r31 98r30
+. 105r30 113r30 116r31 122r30 126r31 133r30 137r31 13|117r28 119m75 121m27
+. 127r28 146r28 158r28 169r28 193r28 216r28
+32e7*WeaponsAvailablity{12E9} 54m65 71r31 75r30 76r31 81r23 83r23 88r23 92r23
+. 99r23 106r23 114r23 117r23 123r23 127r23 134r23 143r30 148r30 153r30 13|127m67
+. 129m27 147r28 159r28 170r28 194r28 217r28
+33e7*CloseAirlockOne{17E9} 52m54 63r71 158r30 159r31 163r79 168r30 181r23
+. 183r31 189r23 194r30 195r31 13|61r29 62m27 68r77 75r28 89r80 90m76 97r28
+. 103r28 117r69
+34e7*CloseAirlockTwo{18E9} 53m37 64r82 158r79 163r30 164r31 174r30 182r23
+. 188r23 190r31 199r30 200r31 13|61r78 68r28 69m27 82r28 90r28 96r80 97m76
+. 110r28 118r78
+35e7*LockAirlockOne{19E9} 53m64 64r32 169r23 170r31 180r30 194r81 195r82
+. 13|75r79 76m27 89r28 103r79 104m27 118r28
+36e7*LockAirlockTwo{20E9} 54m37 65r32 175r23 176r31 187r30 199r81 200r82
+. 13|82r79 83m27 96r28 110r79 111m27 119r28
+37i7*torpedoes{16I9} 55m54 143r128 144r122 144r151 148r127 149r123 149r152
+. 153r87 154r31 154r60 13|14r55 14m91 14r121 24r59 36r55 36m91 36r121 49r27
+. 49m81 49r111
+38b7*loaded{boolean} 55m37 143r87 144r31 148r87 149r31 13|14r27 15m27 24r31
+. 24m95 36r27 37m27
+39e7*storedTorpedoes{13E9} 55m70 154r104 13|50m27 52m27
+40e7*loadedTorpedoes{14E9} 56m37 70r72 75r87 144r71 13|16m27 18m27 25m27
+. 27m27
+41e7*firingTorpedoes{15E9} 56m67 149r72 13|38m27 40m27
+42e7*diveOperational{21E9} 57m37 89r23 93r23 100r23 101r31 107r23 108r30
+. 124r23 128r23 136r23 13|148r28 160r28 161m27 163m27 171r28 173m27 195r28
+. 208r36 219r28 227r32
+43e7*depthPositionCheck{22E9} 57m65 13|136m26 138m26 140m27
+44i7*depthRange{23I9} 57m101 90r23 94r23 13|135r28 135r65 137r31 137r70 149r28
+. 150m27 150r58 151r31 152m27 152r58 172m27
+45e7*lifeSupportStatus{24E9} 58m37 13|181m27 183m27
+46e7*lifeSupportWarnings{25E9} 58m67 13|184m27 200m27 201r36 203r36
+47i7*oxygenRange{26I9} 58m105 109r23 115r23 118r23 125r23 129r23 13|174m27
+. 180r28 180r66 182r31 182r70 196r28 197m28 197r60 198r31 198r70 199m27 199r59
+. 202r31
+48e7*reactorWarnings{27E9} 59m62 135r23 138r23 139r23 13|218r28 220m28 222r37
+49i7*reactorTemperature{28I9} 59m37
+52r4*TridentSubmarine{30R9} 62r27 63r13 63r54 64r15 64r65 65r15 66r14 69r27
+. 70r13 70r55 71r14 74r27 75r13 75r70 76r14 79r27 80r13 81r6 82r14 83r6 86r27
+. 87r13 88r6 89r6 90r6 91r14 92r6 93r6 94r6 97r27 98r13 99r6 100r6 101r14
+. 104r27 105r13 106r6 107r6 108r13 109r6 112r28 113r13 114r6 115r6 116r14
+. 117r6 118r6 121r27 122r13 123r6 124r6 125r6 126r14 127r6 128r6 129r6 132r27
+. 133r13 134r6 135r6 136r6 137r14 138r6 139r6 142r27 143r13 143r70 143r111
+. 144r14 144r54 144r105 144r134 147r27 148r13 148r70 148r110 149r14 149r55
+. 149r106 149r135 152r27 153r13 153r70 154r14 154r43 154r87 157r27 158r13
+. 158r62 159r14 162r27 163r13 163r62 164r14 167r27 168r13 169r6 170r14 173r27
+. 174r13 175r6 176r14 179r27 180r13 181r6 182r6 183r14 186r27 187r13 188r6
+. 189r6 190r14 193r27 194r13 194r64 195r14 195r65 198r27 199r13 199r64 200r14
+. 200r65 13|14r10 14r38 14m74 14r104 15m10 16m10 18m10 24r14 24r42 24m78
+. 25m10 27m10 36r10 36r38 36m74 36r104 37m10 38m10 40m10 49r10 49m64 49r94
+. 50m10 52m10 61r12 61r61 62m10 68r11 68r60 69m10 75r11 75r62 76m10 82r11
+. 82r62 83m10 89r11 89r63 90r11 90m59 96r11 96r63 97r11 97m59 103r11 103r62
+. 104m10 110r11 110r62 111m10 117r11 117r52 118r11 118r61 119r11 119m58 121m10
+. 127r11 127m50 129m10 135r11 135r48 136m9 137r14 137r53 138m9 140m10 146r11
+. 147r11 148r11 149r11 150m10 150r41 151r14 152m10 152r41 158r11 159r11 160r11
+. 161m10 163m10 169r11 170r11 171r11 172m10 173m10 174m10 180r11 180r49 181m10
+. 182r14 182r53 183m10 184m10 193r11 194r11 195r11 196r11 197m11 197r43 198r14
+. 198r53 199m10 199r42 200m10 201r19 202r14 203r19 208r19 216r11 217r11 218r11
+. 219r11 220m11 222r20 227r15
+61U14*OperateSubmarine 13|115b14 123l8 123t24
+68U14*WeaponsSystemCheck 13|125b14 131l8 131t26
+73U14*ReadyToFire 13|12b14 20l8 20t19
+78U14*DepthPosition 13|133b14 142l8 142t21
+85U14*DepthTest 13|144b14 154l8 154t17
+96U14*DiveCheck 13|156b14 165l8 165t17
+103U14*EmergencySurface 13|167b14 176l8 176t24 207s10 226s11
+111U14*LifeSupportCheck 13|178b14 189l8 189t24
+120U14*OxygenTest 13|191b14 212l8 212t18
+131U14*ReactorCheck 13|214b12 230l8 230t20
+141U14*Load 13|22b14 32l8 32t12
+146U14*Fire 13|34b14 45l8 45t12
+151U14*Store 13|47b14 57l8 57t13
+156U14*CloseAirlockOne 13|59b14 64l8 64t23
+161U14*CloseAirlockTwo 13|66b14 71l8 71t23
+166U14*LockAirlockOne 13|73b14 78l8 78t22
+172U14*LockAirlockTwo 13|80b14 85l8 85t22
+178U14*OpenAirlockOne 13|87b14 92l8 92t22
+185U14*OpenAirlockTwo 13|94b14 99l8 99t22
+192U14*UnlockAirlockOne 13|101b14 106l8 106t24
+197U14*UnlockAirlockTwo 13|108b14 113l8 113t24
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS trident__operatesubmarine 0
+GG EK_GLOBALS trident__operatesubmarine local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__weaponssystemcheck 0
+GG EK_GLOBALS trident__weaponssystemcheck local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__readytofire 0
+GG EK_GLOBALS trident__readytofire local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__depthposition 0
+GG EK_GLOBALS trident__depthposition local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__depthtest 0
+GG EK_GLOBALS trident__depthtest local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__divecheck 0
+GG EK_GLOBALS trident__divecheck local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__emergencysurface 0
+GG EK_GLOBALS trident__emergencysurface local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__lifesupportcheck 1 ada__text_io__put_line__2
+GG EK_GLOBALS trident__lifesupportcheck local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__oxygentest 2 trident__emergencysurface ada__text_io__put_line__2
+GG EK_GLOBALS trident__oxygentest local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__reactorcheck 3 trident__emergencysurface ada__text_io__put__4 ada__text_io__put_line__2
+GG EK_GLOBALS trident__reactorcheck local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__load 1 ada__text_io__put_line__2
+GG EK_GLOBALS trident__load local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__fire 1 ada__text_io__put_line__2
+GG EK_GLOBALS trident__fire local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__store 1 ada__text_io__put_line__2
+GG EK_GLOBALS trident__store local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__closeairlockone 0
+GG EK_GLOBALS trident__closeairlockone local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__closeairlocktwo 0
+GG EK_GLOBALS trident__closeairlocktwo local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__lockairlockone 0
+GG EK_GLOBALS trident__lockairlockone local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__lockairlocktwo 0
+GG EK_GLOBALS trident__lockairlocktwo local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__openairlockone 0
+GG EK_GLOBALS trident__openairlockone local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__openairlocktwo 0
+GG EK_GLOBALS trident__openairlocktwo local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__unlockairlockone 0
+GG EK_GLOBALS trident__unlockairlockone local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident__unlockairlocktwo 0
+GG EK_GLOBALS trident__unlockairlocktwo local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 trident__tridentsubmarine proper_output 1 trident__tridentsubmarine refined_proof_in 0 refined_input 1 trident__tridentsubmarine refined_output 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 trident__tridentsubmarine LOCKS 0
+GG EK_DIRECT_CALLS trident 0
+GG EK_GLOBALS trident local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 1 trident__tridentsubmarine calls_proof 0 calls 0 calls_conditional 0 local_var 1 trident__tridentsubmarine FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER
